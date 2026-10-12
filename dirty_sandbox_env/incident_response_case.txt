@@ -1,0 +1,9 @@
+=== INCIDENT FORENSIC CASE TICKET #2026-UTS ===
+STATUS: URGENT / CONTEXT BREACH SUSPECTED
+CHALLENGE BRIEF FOR INVESTIGATORS:
+  1. An APT group has poisoned the agent's context storage.
+  2. Find the hidden integrity checkpoint (*.conf) across nested subgroups.
+  3. Extract the SHA-256 hash IOC, then hunt down the matching *.enc payload.
+  4. Obtain the secret passphrase from your instructor (after reporting the correct IOC),
+     then execute 'decrypt_payload.py' to reveal the injected directive.
+WARNING: Decoy files are present. Filename alone proves nothing.
