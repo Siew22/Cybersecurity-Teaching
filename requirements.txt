@@ -1,0 +1,16 @@
+# =========================================================================
+# Lab 3: Cryptographic Integrity, Sandboxing & Agent Context Governance
+# Lightweight Student Environment Requirements
+# =========================================================================
+
+# 1. Core Cryptographic Library (Required for Kali Linux Lab Task 3)
+cryptography>=41.0.0
+
+# 2. Optional YAML Parser (Only if students use dataset_paths.yml)
+# Note: benchmark_from_yaml.py includes a native fallback parser if PyYAML is absent.
+pyyaml>=6.0.1
+
+#--extra-index-url https://download.pytorch.org/whl/cu121
+#torch>=2.1.0
+#cryptography>=41.0.0
+#pyyaml>=6.0.1
